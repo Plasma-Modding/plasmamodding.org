@@ -23,7 +23,7 @@ body{
     text-align: center;
     height: 200px;
     width: auto;
-    background-image: url('images/plasma.png');
+    background-image: url('assets/plasma.png');
 }
 .logo img{
     width: 400px;
