@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="Plasma Modding" property="og:title" />
+        <meta content="Mods and Tools For Mods Discord: https://discord.gg/sFjfgwPFBt Reddit: https://www.reddit.com/r/plasmagamemodding/" property="og:description" />
+        <meta content="https://www.plasmamodding.org" property="og:url" />
+        <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+        <link rel="icon" type="image/png" href="Images/PlasmaTech.png"/>
+        <title>Plasma Modding</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="logo">
+            <img src="images/logohd.png" alt="">
+        </div>
+        <div class="text-box">
+            <h1>PLASMA <span id="element"></span></h1>
+            <p><span id="Mods">Mods</span> and <span id="Tools">Tools</span> for Mods</p>
+            <button class="btn" onclick="window.location.href='https://discord.gg/sFjfgwPFBt';">Discord</button>
+            <button class="btn" onclick="window.location.href='https://www.reddit.com/r/plasmagamemodding/';">Reddit</button>
+        </div>
+
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+        <script>
+             var typed = new Typed('#element', {
+            strings: ['MODDING'],
+            typeSpeed: 100,
+            });
+        </script>
+    </body>
+</html>

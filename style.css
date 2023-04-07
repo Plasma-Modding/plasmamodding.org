@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(42, 40, 48);
+}
+
+.text-box h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+.text-box p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.text-box{
+    margin-top: 200px;
+    text-align: center;
+}
+#element {
+    color: orange;
+}
+.logo{
+    text-align: center;
+    height: 200px;
+    width: auto;
+    background-image: url('images/plasma.png');
+}
+.logo img{
+    width: 400px;
+    height: 400px;
+    display: block; 
+    margin: 0 auto;
+}
+.btn:hover {
+    background: #2f2c3d;
+}
+.btn {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #3f3b53; color: rgb(255, 255, 255);
+    border: none; /* Remove borders */
+    color: rgb(255, 255, 255); /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    border-radius: 5px;
+}
+#Mods {
+    color: orange;
+}
+#Tools {
+    color: orange;
+}
+  
