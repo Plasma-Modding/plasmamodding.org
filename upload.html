@@ -50,7 +50,7 @@
     <input type="text" id="Image" placeholder="Image URL">
     <input type="text" id="Mail" placeholder="E-mail">
     <div> 
-        <button onclick="sendMessage()" class="btn">Upload</button>
+      <button onclick="sendMessage(); window.location.href='https://www.plasmamodding.org/thanksup.html';" class="btn">Upload</button>
     </div>
 
     <script>
@@ -64,8 +64,7 @@
 
         const embed = {
           title: title,
-          description: description,
-          EMail: mail,
+          description: description + " " + mail,
           url: repo,
           thumbnail: {
             url: image
@@ -82,7 +81,7 @@
             "Content-Type": "application/json"
           },
           body: JSON.stringify(data)
-        })
+        }) 
           .then(response => console.log(response))
           .catch(error => console.error(error));
       }
