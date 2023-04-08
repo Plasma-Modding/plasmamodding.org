@@ -48,6 +48,7 @@
     <input type="text" id="Description" placeholder="Description">
     <input type="text" id="Repo" placeholder="GitHub Repo">
     <input type="text" id="Image" placeholder="Image URL">
+    <input type="text" id="Mail" placeholder="E-mail">
     <div> 
         <button onclick="sendMessage()" class="btn">Upload</button>
     </div>
@@ -59,10 +60,12 @@
         const description = document.getElementById("Description").value;
         const repo = document.getElementById("Repo").value;
         const image = document.getElementById("Image").value;
+        const mail = document.getElementById("Mail").value;
 
         const embed = {
           title: title,
           description: description,
+          EMail: mail,
           url: repo,
           thumbnail: {
             url: image
